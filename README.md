@@ -63,6 +63,13 @@ For the current version of this repository, only the Option 1 (single Agent) is 
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
+###How to use it
+The main file is `Continuous_Control.ipynb`, the file is self-explanatory. To install the needed dependences follow check https://github.com/udacity/deep-reinforcement-learning
+
+**If the Unity enviroment throws an error, restart the kernel
+
+**If training throws an error about Cuda Status realted to the Batch NORM just rerun the cell that throwed the error (without restarting the Kernel)
+
 ### Approach and solution
 The notebook `Continuous_Control.ipynb` contains the code to set up the environment and the outer episode iteration to solve the reinforcement problem. The current solution uses a Deep Deterministic Policy Gradient approach (only standard feedforward layers) with experience replay, see this [paper](https://arxiv.org/pdf/1509.02971.pdf).
 
